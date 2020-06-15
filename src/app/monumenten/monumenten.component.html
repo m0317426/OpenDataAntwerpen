@@ -1,0 +1,11 @@
+<h1>Buurtsporttereinen in Antwerpen</h1>
+
+
+<ul *ngFor='let monument of monumenten'>
+    <li><h4>{{monument.attributes.NAAM }}</h4>
+      <h6>{{monument.attributes.CATEGORIE}}</h6>
+        <p>{{monument.attributes.STRAAT}} {{monument.attributes.HUISNR}} </p>
+        <p>{{monument.attributes.POSTCODE}} {{monument.attributes.DISTRICT}} </p>
+         </li>
+  </ul>
+
